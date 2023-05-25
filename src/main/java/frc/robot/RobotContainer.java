@@ -30,9 +30,9 @@ import frc.robot.subsystems.Swerve;
 public class RobotContainer {
     /* Controllers */
     public static CommandXboxController driverController = new CommandXboxController(0);
-    public static CommandXboxController operatorController = new CommandXboxController(1);
+    //public static CommandXboxController operatorController = new CommandXboxController(1);
     public static Joystick driver = new Joystick(0);
-    public static Joystick operator = new Joystick(1);
+    //public static Joystick operator = new Joystick(1);
 
     /* Drive Controls */
     private final int translationAxis = XboxController.Axis.kLeftY.value;
