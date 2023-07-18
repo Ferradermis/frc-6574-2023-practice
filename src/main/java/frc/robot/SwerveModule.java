@@ -83,7 +83,7 @@ private void setAngle(SwerveModuleState desiredState){
         lastAngle = angle;
     }
 
-    private Rotation2d getAngle(){
+    Rotation2d getAngle(){
         return Rotation2d.fromDegrees(Conversions.falconToDegrees(mAngleMotor.getSelectedSensorPosition(), Constants.Swerve.angleGearRatio));
     }
 
