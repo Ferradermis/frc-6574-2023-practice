@@ -1,5 +1,9 @@
 {
   "SysId": {
-    "Analysis Type": "Drivetrain"
+    "Analysis Type": "Drivetrain",
+    "NetworkTables Settings": {
+      "serverTeam": "6574"
+    },
+    "mode": "Disabled"
   }
 }
